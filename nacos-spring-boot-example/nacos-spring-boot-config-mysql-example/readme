@@ -1,0 +1,9 @@
+在nacos添加以下配置:
+Data Id:mysql.properties
+Group:DEFAULT_GROUP
+
+spring.datasource.url=jdbc:mysql://localhost:3306/test?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=1234567890
+spring.datasource.initial-size=10
+spring.datasource.max-active=20
